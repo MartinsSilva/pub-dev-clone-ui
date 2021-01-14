@@ -1,0 +1,193 @@
+* {
+	margin: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+/* header */
+.header-main {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	background-color: #1C2834;
+	padding: 8px;
+}
+
+.header-logo img {
+	width: 120px;
+}
+
+.header-nav a {
+	padding: 8px;
+}
+
+.header-nav a:first-child {
+	cursor: inherit;
+}
+
+/* banner */
+.banner-main {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: #132030;
+}
+
+.banner-image img {
+	width: 600px;
+	margin: 40px 0 35px 0;
+}
+
+.banner-form input {
+	width: 630px;
+	height: 44px;
+	padding: 10px;
+	background-color: #35404D;
+	border: none;
+	color: white;
+	font-size: 1rem;
+}
+
+.banner-form button.btn-search {
+	border: none;
+	border-radius: 0px 3px 3px 0px;
+	background-color: #0175C2;
+	color: white;
+	padding: 13px 10px 10px 14px;
+	margin-left: -7px;
+}
+
+.banner-choose {
+	margin-top: 20px;
+}
+
+.banner-choose a {
+	padding: 10px;
+}
+
+.banner-choose a:first-child:hover {
+	background-color: #727A83;
+	padding: 10px;
+}
+
+.banner-choose a.btn-blue {
+	background-color: #0175C2;
+	padding: 8px 20px 8px 20px;
+}
+
+.banner-choose a.btn-blue:hover {
+	background-color: #0564A5;
+}
+
+.banner-choose a.span-blue {
+	color: #0175C2;
+}
+
+.banner-text {
+	margin-top: 60px;
+	margin-bottom: 60px;
+	color: #8D9399;
+}
+
+.banner-text p span {
+	color: #0175C2;
+	font-weight: bold;
+}
+
+/* fav flutter*/
+.fav-header {
+	text-align: center;
+	color: #808080;
+	margin-top: 30px;
+	font-size: 1.2rem;
+}
+
+.fav-flutter {
+	width: 100%;
+	margin-top: 25px;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.fav-card {
+	width: 330px;
+	height: 150px;
+	margin-right: 24px;
+	margin-bottom: 40px;
+	padding: 10px;
+}
+
+.fav-card:hover {
+	background-color: #FAFAFA;
+}
+
+.fav-card-header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.fav-verifered img {
+	width: 15px;
+}
+
+.fav-card-title {
+	color: #0175C2;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+.fav-author {
+	color: #0175C2;
+	cursor: pointer;
+}
+
+.fav-card-category {
+	margin-top: 14px;
+}
+
+.fav-card-category span {
+	background-color: #F0F9FD;
+	padding: 6px;
+	cursor: pointer;
+}
+
+.fav-card-body {
+	margin-top: 14px;
+	font-style: normal;
+}
+
+/* flutter footer */
+.fav-footer {
+	text-align: center;
+	color: #0564A5;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+/* footer */
+.footer-main {
+	background-color: #1C2834;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 20px;
+	margin-top: 80px;
+}
+
+.footer-main a {
+	margin-right: 22px;
+	font-size: 0.80rem;
+	font-weight: bold;
+}
+
+.footer-main a img.icon-footer {
+	width: 14px;
+}
